@@ -1,0 +1,22 @@
+﻿@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer Localizer
+@model CustomStringLocalizerSample.Web.Models.ContactViewModel
+@{
+    ViewData["Title"] = Localizer["Contact"].Value;
+}
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+<form asp-action="Contact" asp-controller="Home" method="post">
+    <div>
+        <label asp-for="Name" />
+        <input asp-for="Name" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="Message" />
+        <input asp-for="Message" />
+        <span asp-validation-for="Message" class="text-danger"></span>
+    </div>
+    <input type="submit" name="submit" />
+</form>
+

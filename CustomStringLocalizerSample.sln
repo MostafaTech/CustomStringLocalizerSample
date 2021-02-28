@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomStringLocalizerSample.Web", "CustomStringLocalizerSample.Web\CustomStringLocalizerSample.Web.csproj", "{B5FCE154-29EA-4ED0-89F9-3F8736A40A2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomStringLocalizerSample", "CustomStringLocalizerSample\CustomStringLocalizerSample.csproj", "{3AFA71A0-0FD8-4725-96A5-1C90744BC39B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5FCE154-29EA-4ED0-89F9-3F8736A40A2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5FCE154-29EA-4ED0-89F9-3F8736A40A2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5FCE154-29EA-4ED0-89F9-3F8736A40A2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5FCE154-29EA-4ED0-89F9-3F8736A40A2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AFA71A0-0FD8-4725-96A5-1C90744BC39B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AFA71A0-0FD8-4725-96A5-1C90744BC39B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AFA71A0-0FD8-4725-96A5-1C90744BC39B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AFA71A0-0FD8-4725-96A5-1C90744BC39B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F1D5CAB-5ECB-4847-95C1-02677DFD15BB}
+	EndGlobalSection
+EndGlobal
